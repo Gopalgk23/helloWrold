@@ -1,0 +1,53 @@
+#%RAML 1.0
+title: securePropertiesvm
+
+
+/ramlvmsecureproperties:
+  description: This is used to get  detailsfrom peorpertie file 
+  post:
+    body: 
+      application/json:
+        example: |
+          {
+          "Message": "This is a sdfsdfsfsdf Message"
+          } 
+    responses: 
+      201:
+        body: 
+          application/json:
+            example: |
+              {
+                "Message": "This is a sdfsdfsfsdf Message",
+                "date": "10",
+                "cloth": "buyNewCloth",
+                "home": "wecelebratediwalifestivalatnigth"
+              }
+/filewrite:
+  description: This is used to get  detailsfrom peorpertie file 
+  post:
+    body: 
+      application/json:
+        example: |
+          {
+          "Message": "This is a sdfsdfsfsdf Message"
+          } 
+    responses: 
+      201:
+        body: 
+          application/json:
+            example: |
+              {
+                "Message": "This is a sdfsdfsfsdf Message",
+                "date": "10",
+                "cloth": "buyNewCloth",
+                "home": "wecelebratediwalifestivalatnigth"
+              }
+/fileread:
+  description: This is used to get  detailsfrom peorpertie file 
+  post:
+    
+/filerename:
+  description: This is used to get  detailsfrom peorpertie file 
+  post:
+    
+  
